@@ -112,7 +112,7 @@
                                     </a>
                                 </div>
                                 <!-- logo close -->
-                            </div>                            
+                            </div>
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainmenu begin -->
                                 <ul id="mainmenu">
@@ -137,7 +137,7 @@
             </div>
         </header>
         <!-- header close -->
-        
+
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
@@ -162,7 +162,7 @@
             <section data-bgcolor="#f9c648" class="pt10 pb10 bg-color-secondary">
             </section>
             <!--banner border close-->
-            
+
             <section>
                 <div class="container text-center py-5">
                     <h1>Thank You</h1>
@@ -176,7 +176,7 @@
 
         <!-- footer begin -->
         <?php
-            include('footer.php');
+        include('footer.php');
         ?>
         <!-- footer close -->
 

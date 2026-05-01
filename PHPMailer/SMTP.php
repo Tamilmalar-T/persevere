@@ -137,7 +137,7 @@ class SMTP
      * $mail->Debugoutput = new myPsr3Logger;
      * ```
      *
-     * @var string|callable|\Psr\Log\LoggerInterface
+     
      */
     public $Debugoutput = 'echo';
 
