@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Demo Company</title>
+  <title>Persevere Medica</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="Demo Company" name="description" />
+  <meta content="Persevere Medica" name="description" />
   <meta content="" name="keywords" />
   <meta content="" name="author" />
 
@@ -97,6 +97,7 @@
     .tab-content-container {
       display: flex;
       justify-content: flex-start;
+      /* margin-left: 20px; */
     }
 
     @media screen and (max-width: 480px) {
@@ -273,12 +274,12 @@
           <!--Next and Previous Button-->
           <div class="pre-nxt-btn">
             <button type="button" class="btn btn-bg-color btn-sm">
-              <a href="acusuclin.php" style="color: #000"><i class="id-color arrow_left fa-lg"
+              <a href="lamzomid-ns.php" style="color: #000"><i class="id-color arrow_left fa-lg"
                   style="margin-right: 5px"></i>Previous</a>
             </button>
-            <p class="mx-3 mb-0">11/52</p>
+            <p class="mx-3 mb-0">2/52</p>
             <button type="button" class="btn btn-bg-color btn-sm">
-              <a href="atrarelief.php" style="color: #000">Next<i class="id-color arrow_right fa-lg"
+              <a href="dexunique-50-100.php" style="color: #000">Next<i class="id-color arrow_right fa-lg"
                   style="margin-right: 5px"></i></a>
             </button>
           </div>
@@ -287,44 +288,42 @@
       <!--banner border close-->
 
       <!--Product Begin-->
-      <section class="pt0 pb-3 btm-space">
+      <section class="pt0 pb-5 btm-space">
         <div id="prd-detail" class="container-fluid" style="padding: 0px 0px 0px 70px">
           <div class="row no-gutters">
             <div class="col-lg-8 col-md-12 pt10">
               <div class="row">
                 <!--Product display-->
                 <h4>
-                  <a href="product.php" class="text-black"><i class="id-color arrow_left fa-lg"
-                  style="margin-right: 5px"></i> ANAESTHESIA</a>
+                  <a href="product.php" class="text-black"><i class="id-color arrow_left fa-lg" style="margin-right: 5px"></i> ANAESTHESIA</a>
                 </h4>
                 <!-- <span class="bredcrm"><a href="product.php"><i class="id-color arrow_left fa-lg"
-                                            style="margin-right: 5px"></i>Vacranium - 4</a></span> -->
+                                            style="margin-right:5px;"></i>Proactfol</a></span> -->
 
                 <div class="col-lg-6 col-md-6 d-flex mob-prd" style="flex-direction: column; justify-content: center">
                   <div class="prod-detail-mob mt-4">
                     <h4 style="font-size: 26px; font-family: 'Montserrat-Black'" class="prd-big-head">
-                      Vacranium<sup>®</sup> 
-                      <span class="avail-size">(4/10)</span>
+                      Lamzomid<sup>®</sup> N.S.
                     </h4>
                     <p style="font-size: 22px; font-family: 'Swiss721-cn-BT'">
-                      Vecuronium Bromide Injection I.P. 
-                      <!--<span class="avail-size" style="font-size:16px;">(4mg/10mg)</span>-->
+                      Midazolam Nasal Spray
                     </p>
                   </div>
                   <div class="tab-content-container">
                     <div class="tab-content" data-content-index="0">
-                      <img src="images/product/21. Vecranium 4.webp" width="380" height="auto" />
+                      <img src="images/desktop/3.Lamzomid5ml.png" width="400" height="auto" />
                     </div>
                     <div class="tab-content" data-content-index="1">
-                      <img src="images/product/22. Vecranium 10.webp" width="380" height="auto"
-                        style="margin-right: 30px" />
+                      <img src="images/product/4. Lamzomid 10ml.webp" width="400" height="auto" />
+                    </div>
+                    <div class="tab-content" data-content-index="1">
+                      <img src="images/product/5. Lamzomid 1ml.webp" width="400" height="auto" />
                     </div>
                   </div>
 
                   <h6>Available As:</h6>
                   <div class="tab-container" id="tabContainer">
-                    <div class="tab" data-tab-index="0">4mg Lyo. Ampoule</div>
-                    <div class="tab" data-tab-index="1">10mg Lyo. Vial</div>
+                    <div class="tab active" data-tab-index="0">Nasal Spray</div>
                   </div>
                 </div>
 
@@ -332,64 +331,70 @@
                 <div class="col-lg-6 col-md-6">
                   <div class="prod-detail-desk">
                     <h4 style="font-size: 26px; font-family: 'Montserrat-Black'">
-                      Vacranium<sup>®</sup>
-                      <span class="avail-size">(4/10)</span>
+                      Lamzomid<sup>®</sup> N.S.
                     </h4>
                     <p style="font-size: 22px; font-family: 'Swiss721-cn-BT'">
-                      Vecuronium Bromide Injection I.P. 
-                      <!--<span class="avail-size" style="font-size:16px;">(4mg/10mg)</span>-->
+                      Midazolam Nasal Spray
                     </p>
                   </div>
                   <div class="ul-list">
                     <h6>Indications</h6>
                     <ul>
-                      <li>Facilitate endotracheal intubation<sup style="font-size:8px;">1</sup></li>
-                      <li>Rapid sequence intubation<sup style="font-size:8px;">1</sup></li>
-                      <li>Maintenance for continued surgical relaxation<sup style="font-size:8px;">1</sup></li>
-                      <li>
-                        To achieve paralysis to facilitate mechanical
-                        ventilation in Intensive Care Unit setting²
-                      </li>
+                        <li>Induction of anaesthesia<sup style="font-size:8px;">1</sup></li>
+                        <li>Rapid onset of action²
+                        <li>Management of Status Epilepticus²</li>
+                        <li>
+                            Continuous infusion provides effective sedation in the
+                            Intensive Care Unit³
+                        </li>
                     </ul>
                   </div>
 
-                  <ul style="
-                        list-style-type: none;
-                        font-size: 14px;
-                        padding-left: 0px;
-                        margin-top: 30px;
-                      ">
-                    <li>
-                      <img src="images/product/icons/Ampoule.png" class="img-fluid icon-prd" />
-                      5 x 4mg Ampoule with SWFI &
-                      <img src="images/product/icons/Vial.gif" class="img-fluid" />10mg Vial
-                    </li>
-                    <li>
-                      <img src="images/product/icons/Strength icon.gif" class="img-fluid icon-prd" />
-                      4mg & 10mg
-                    </li>
-                    <li>
-                      <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
-                      
-                    </li>
-                    <li>
-                      <img src="images/product/icons/Lyophilization with WFI.gif" class="img-fluid icon-prd" />
-                      Lyophilised
-                    </li>
-                    <li>
-                      <img src="images/product/icons/Direction of Use.gif" class="img-fluid icon-prd" />
-                      I.V. Use Only
-                    </li>
-                  </ul>
+                  <ul style="list-style-type: none; font-size: 14px; padding-left: 0px;margin-top: 30px;">
+                                        <li>
+                                            <img src="images/product/icons/UV protected by Amber glass.png"
+                                                class="img-fluid icon-prd" />
+                                            Amber Coloured Vial
+                                        </li>
+                                        <li>
+                                            <img src="images/product/icons/Vial.gif" class="img-fluid icon-prd" />
+                                            5ml and 10ml Vials & <img src="images/product/icons/Ampoule.png"
+                                                class="img-fluid icon-prd" /> 5 × 1ml Ampoule
+                                        </li>
+                                        <li>
+                                            <img src="images/product/icons/Strength icon.gif"
+                                                class="img-fluid icon-prd" />
+                                            1 mg/ml & 5mg/ml
+                                        </li>
+                                        <li>
+                                            <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
+                                            
+                                        </li>
+
+                                        <li>
+                                            <img src="images/product/icons/Direction of Use.gif"
+                                                class="img-fluid icon-prd" />
+                                            I.M. / I.V. Use
+                                        </li>
+
+                                        <li>
+                                            <img src="images/product/icons/no-preservatives (1).png"
+                                                class="img-fluid icon-prd"  />
+                                            <span style="color:red;"><b>PRESERVATIVE NOT ADDED</b></span> for Ampoules <img
+                                                src="images/product/icons/Ampoule.png" class="img-fluid icon-prd" />
+                                        </li>
+
+                                        </li>
+                                    </ul>
 
                   <!--Next and Previous Button-->
                   <!-- <div class="pre-nxt-btn pt-3">
                                         <button type="button" class="btn btn-warning btn-sm">
-                                            <a href="mayocron.php" style="color:#000;"><i class="id-color arrow_left fa-lg" style="margin-right: 5px"></i>Previous</a>
+                                            <a href="acrolate.php" style="color:#000;"><i class="id-color arrow_left fa-lg" style="margin-right: 5px"></i>Previous</a>
                                         </button>
-                                        <p class="mx-3 mb-0">14/56</p>
+                                        <p class="mx-3 mb-0">9/56</p>
                                         <button type="button" class="btn btn-warning btn-sm">
-                                            <a href="vacranium-10.php" style="color:#000;">Next<i class="id-color arrow_right fa-lg" style="margin-right: 5px"></i></a>
+                                            <a href="proactfol-mct.php" style="color:#000;">Next<i class="id-color arrow_right fa-lg" style="margin-right: 5px"></i></a>
                                         </button>
                                     </div> -->
                 </div>
@@ -399,20 +404,21 @@
             <div class="col-lg-4 col-md-12 video-resp">
               <div class="">
                 <video autoplay muted loop width="100%" height="auto">
-                  <source src="images/product/product video/vacranium.mp4" type="video/mp4" />
+                  <source src="images/product/product video/Lamzomid.mp4" type="video/mp4" />
                 </video>
               </div>
               <div class="ol-list">
                 <ol style="list-style-type: decimal; font-size: 10px">
-                  <li>
-                    Ramzy M, et al. Vecuronium. In StatPearls Treasure Islanfd
-                    Publishing 2022 Jan
-                  </li>
-                  <li>
-                    Alpert CC, et al. Intomuscular use of veruronium bromide J
-                    Cardiothorac Vasc Anesth. 1992;6(2):265
-                  </li>
-                </ol>
+                                    <li>
+                                        Baber R, et al. Anaesth Intensive Care. 1982;10(1):29-35
+                                    </li>
+                                    <li>
+                                        Lingamchetty TN, et al.Midazolam. Updated 2021 Aug 6
+                                        StatPearls Treasure island
+                                    </li>
+                                    <li>Shafer A. Crit Care Med. 1998;26(5):947-956</li>
+                                </ol>
+                
               </div>
             </div>
           </div>
@@ -429,12 +435,12 @@
         <!--Next and Previous Button-->
         <div class="pre-nxt-btn">
           <button type="button" class="btn btn-bg-color btn-sm">
-            <a href="acusuclin.php" style="color: #000"><i class="id-color arrow_left fa-lg"
+            <a href="lamzomid-ns.php" style="color: #000"><i class="id-color arrow_left fa-lg"
                 style="margin-right: 5px"></i>Previous</a>
           </button>
-          <p class="mx-3 mb-0">11/52</p>
+          <p class="mx-3 mb-0">2/52</p>
           <button type="button" class="btn btn-bg-color btn-sm">
-            <a href="atrarelief.php" style="color: #000">Next<i class="id-color arrow_right fa-lg"
+            <a href="dexunique-50-100.php" style="color: #000">Next<i class="id-color arrow_right fa-lg"
                 style="margin-right: 5px"></i></a>
           </button>
         </div>
@@ -444,9 +450,102 @@
 
 
     <!-- footer begin -->
-    <?php
-            include('footer.php');
-        ?>
+    <footer style="background-image: url('images/home/footer-bg.webp') !important" data-width="100%" data-height="100%"
+      object-fit="cover">
+      <!--<figure class="footer-half img-fluid wow fadeInLeft" data-wow-delay=".4s"><img src="images/Demo-Logo-footer.webp" clas></figure>-->
+      <div class="container-fluid prd-detail" style="padding: 0px 70px">
+        <div class="row">
+          <div class="col-lg-2 d-flex" style="align-items: center">
+            <div class="widget pb-1 mb-1">
+              <div class="logo-footer">
+                <img src="images/Demo-Logo.png" width="130px" class="footer-logo" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="widget pb-1 mb-1">
+              <h5 style="color: #f5c52e">Our Company</h5>
+              <ul>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="careers.php">Careers</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
+                <!-- <li><a href="news.php">News</a></li> -->
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6">
+            <div class="widget pb-1 mb-1">
+              <h5 style="color: #f5c52e">Products</h5>
+              <ul>
+                <li><a href="product.php">Anaesthesia</a></li>
+                <li><a href="critical-care.php">Critical Care</a></li>
+                <li><a href="essential-medicine.php">Other Essentials</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="widget pb-1 mb-1">
+              <h5 style="color: #f5c52e">Get In Touch</h5>
+              <address class="s1">
+                <span class="d-flex"><i class="fa fa-map-marker fa-lg"></i>Demo Address,
+                   , Coimbatore, Tamilnadu, India, 600028.</span>
+                <span><i class="fa fa-phone fa-lg"></i>12345 67890/ 12345 67890</span>
+
+                <span><i class="fa fa-envelope-o fa-lg"></i><a
+                    href="mailto:Demo@Demo.in">Demo@Demo.in</a></span>
+              </address>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="widget pb-1 mb-1">
+              <h5 style="color: #f5c52e">Newsletter</h5>
+
+              <p>
+                Signup for our newsletter to get the latest news & updates in
+                your inbox.
+              </p>
+              <!-- <form action="blank.php" class="row" id="form_subscribe" method="post" name="form_subscribe">
+                <div class="col text-center">
+                  <input class="form-control" id="name_1" name="name_1" placeholder="enter your email" type="text" />
+                  <a href="#" id="btn-submit"><i class="arrow_right bg-color-secondary"></i></a>
+                  <div class="clearfix"></div>
+                </div>
+              </form> -->
+
+              <form action="subscribemail.php" class="row" id="form_subscribe" method="POST" name="form_subscribe">
+                <div class="col text-center">
+                    <input class="form-control" id="name_1" name="email" placeholder="Enter your email" type="text" />
+                    <button type="submit" name="sendmail" class="input-submit buttonarrow"><i class="arrow_right"></i></button>
+                </div>
+            </form>
+
+              <!--<div class="spacer-10"></div>-->
+              <!--<small>Your email is safe with us. We don't spam.</small>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="subfooter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="text-center">
+                <div>
+                  Copyright &copy;
+                  <script>document.write(new Date().getFullYear())</script> Demo- Designed by <a
+                    href="https://www.Demo.com/" target="_blank" rel="dofollow">Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- footer close -->
   </div>
 

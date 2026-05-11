@@ -39,7 +39,7 @@ if (isset($_POST['sendmail'])) {
 
         // 1. Email to Site Owner (Enquiry Notification)
         $mail->setFrom($smtp_user, "Persevere Medica Website");
-        $mail->addAddress("perseveremedica@gmail.com"); // Owner email from contact page info
+        $mail->addAddress("perseveremedica@gmail.com"); // Owner email
         $mail->isHTML(true);
         $mail->Subject = "New Contact Request: $user_name";
         $mail->Body = "

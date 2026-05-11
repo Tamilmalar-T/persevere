@@ -283,7 +283,7 @@
                     </li>
 
                     <li>
-                      <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />Pharmacopoeia - I.P.
+                      <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
                     </li>
                     <li>
                       <img src="images/product/icons/no-preservatives (1).png" class="img-fluid icon-prd" />

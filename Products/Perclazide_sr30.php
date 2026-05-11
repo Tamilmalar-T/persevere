@@ -12,24 +12,24 @@
     <!-- CSS Files
     ================================================== -->
     <!--Custom css-->
-    <link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+    <link href="../css/mystyle.css" rel="stylesheet" type="text/css" />
 
     <!--Predefined css-->
-    <link href="css/jpreloader.css" rel="stylesheet" type="text/css" />
-    <link id="bootstrap" href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link id="bootstrap-grid" href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
-    <link id="bootstrap-reboot" href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/animate.css" rel="stylesheet" type="text/css" />
-    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
-    <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
-    <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
-    <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../css/jpreloader.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap" href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-grid" href="../css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-reboot" href="../css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="../css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="../css/owl.theme.css" rel="stylesheet" type="text/css" />
+    <link href="../css/owl.transitions.css" rel="stylesheet" type="text/css" />
+    <link href="../css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="../css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
 
     <!-- color scheme -->
-    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
-    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+    <link id="colors" href="../css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
+    <link href="../css/coloring.css" rel="stylesheet" type="text/css" />
 
     <style>
         .post-text h4 a {
@@ -43,14 +43,10 @@
             align-self: center;
         }
 
-       
-
         .tab-content-container {
             display: flex;
             justify-content: center;
         }
-
-       
     </style>
 </head>
 
@@ -66,9 +62,9 @@
                             <div class="de-flex-col">
                                 <!-- logo begin -->
                                 <div id="logo">
-                                    <a href="index.php">
-                                        <img alt="" class="logo" width="70%" src="images/Demo-Logo.png" />
-                                        <img alt="" class="logo-2" width="50%" src="images/pershel500.jfif" />
+                                    <a href="../index.php">
+                                        <img alt="" class="logo" width="70%" src="../images/Demo-Logo.png" />
+                                        <img alt="" class="logo-2" width="50%" src="../images/pershel500.jfif" />
                                     </a>
                                 </div>
                                 <!-- logo close -->
@@ -77,13 +73,13 @@
                                 <!-- mainmenu begin -->
                                 <ul id="mainmenu">
                                     <li>
-                                        <a href="index.php">Home<span></span></a>
+                                        <a href="../index.php">Home<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="about.php">Company<span></span></a>
+                                        <a href="../about.php">Company<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="product.php">Products<span></span></a>
+                                        <a href="../product.php">Products<span></span></a>
                                         <ul>
                                             <li><a href="#">Anaesthesia</a></li>
                                             <li><a href="#">Critical Care</a></li>
@@ -91,12 +87,12 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="media.php">Media<span></span></a>
+                                        <a href="../media.php">Media<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="careers.php">Career<span></span></a>
+                                        <a href="../careers.php">Career<span></span></a>
                                     </li>
-                                    <li><a href="contact.php">Contact Us</a></li>
+                                    <li><a href="../contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div class="de-flex-col">
@@ -117,33 +113,33 @@
                             <div class="de-flex-col">
                                 <!-- logo begin -->
                                 <div id="logo" class="text-center">
-                                    <a href="index.php">
-                                        <img alt="" class="" width="70%" src="images/PersevereLogo.png" />
+                                    <a href="../index.php">
+                                        <img alt="" class="" width="70%" src="../images/PersevereLogo.png" />
 
                                     </a>
                                 </div>
                                 <!-- logo close -->
-                            </div>                            
+                            </div>
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainmenu begin -->
                                 <ul id="mainmenu">
                                     <li>
-                                        <a href="index.php">Home<span></span></a>
+                                        <a href="../index.php">Home<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="about.php">Company<span></span></a>
+                                        <a href="../about.php">Company<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="product.php">Products<span></span></a>
+                                        <a href="../product.php">Products<span></span></a>
 
                                     </li>
                                     <li>
-                                        <a href="media.php">Media<span></span></a>
+                                        <a href="../media.php">Media<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="careers.php">Career<span></span></a>
+                                        <a href="../careers.php">Career<span></span></a>
                                     </li>
-                                    <li><a href="contact.php">Contact Us</a></li>
+                                    <li><a href="../contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -181,13 +177,13 @@
                     <!--Next and Previous Button-->
                     <div class="pre-nxt-btn">
                         <button type="button" class="btn btn-bg-color btn-sm">
-                            <a href="product.php" style="color:#000;"><i class="id-color arrow_left fa-lg"
-                                    style="margin-right: 5px"></i>Previous</a>
+                            <a href="lormand_ch.php" style="color:#000;"><i class="id-color arrow_left fa-lg"
+                                     style="margin-right: 5px"></i>Previous</a>
                         </button>
-                        <p class="mx-3 mb-0">1/16</p>
+                        <p class="mx-3 mb-0">7/15</p>
                         <button type="button" class="btn btn-bg-color btn-sm">
-                            <a href="percoba.php" style="color:#000;">Next<i class="id-color arrow_right fa-lg"
-                                    style="margin-right: 5px"></i></a>
+                            <a href="Perclazide_sr60.php" style="color:#000;">Next<i class="id-color arrow_right fa-lg"
+                                     style="margin-right: 5px"></i></a>
                         </button>
                     </div>
                 </div>
@@ -198,89 +194,93 @@
             <section class="pt0 pb-5 btm-space">
                 <div id="prd-detail" class="container-fluid" style="padding: 0px 0px 0px 70px">
                     <div class="row no-gutters">
-                        <div class="col-lg-8 col-md-12 pt10">
+                        <div class="col-lg-12 col-md-12 pt10">
                             <div class="row">
                                 <!--Product display-->
-                                <h4><a href="product.php" class="text-black"><i class="id-color arrow_left fa-lg" style="margin-right: 5px"></i> CATEGORY</a></h4>
+                                <h4><a href="../product.php" class="text-black"><i class="id-color arrow_left fa-lg"
+                                            style="margin-right: 5px"></i>PRODUCTS</a></h4>
 
 
                                 <div class="col-lg-6 col-md-6 mob-prd">
                                     <div class="d-flex" style="flex-direction: column; justify-content: center">
                                         <div class="prod-detail-mob mt-4 ">
-                                            <p style="margin-bottom: 5px;">In Osteoporosis and Calcium Deficiency</p>
-                                            <h4 style="font-size: 26px; font-family:'Montserrat-Black'; margin-bottom: 0;" class="prd-big-head"> PERSHEL 500</h4>
-                                            <p style="font-size: 22px; font-family: 'Swiss721-cn-BT'; margin-bottom: 0;">
-                                                Calcium and Vitamin D3 Tablets
+                                             <h4 style="font-size: 26px; font-family:'Montserrat-Black'; margin-bottom: 0;"
+                                                class="prd-big-head"> PERCLAZIDE SR 30</h4>
+                                         <p style="margin-bottom: 5px;">For the Management of Type 2 Diabetes Mellitus</p>
+                                            <p style="font-size: 18px; font-style: italic; margin-bottom: 10px;">
+                                                "Steady Control, Once Daily"
                                             </p>
-                                            <p style="font-style: italic;">"Nature's Strength for Stronger Bones"</p>
                                         </div>
-                                        
+
                                         <div>
                                             <div class="tab-content-container mb-5" id="pills-tabContent">
-                                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                                    <img src="images/desktop/pershel500.png" width="190" height="auto" />
+                                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                                    aria-labelledby="pills-home-tab">
+                                                    <img src="../images/product/Perclazide-sr-30.jfif" width="190"
+                                                        height="auto" />
                                                 </div>
                                             </div>
-                                            
+
                                             <div class="prodTab-cont">
                                                 <h6>Available As:</h6>
                                                 <ul class="nav nav-pills mt-1" id="pills-tab" role="tablist">
                                                     <li class="nav-item">
-                                                      <a class="avail-type active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
-                                                        role="tab" aria-controls="pills-home" aria-selected="true">15 Tablets per each Strip</a>
+                                                        <a class="avail-type active" id="pills-home-tab"
+                                                            data-toggle="pill" href="#pills-home" role="tab"
+                                                            aria-controls="pills-home" aria-selected="true">15 Tablets
+                                                            per each Strip</a>
                                                     </li>
                                                 </ul>
                                             </div>
-                                        </div> 
-                                        
+                                        </div>
+
                                     </div>
                                 </div>
-                                
+
 
                                 <div class="col-lg-6 col-md-6">
                                     <div class="prod-detail-desk">
-                                        <!--<img src="images/product/1india.jpeg" style="width:70px;margin-left:-13px;" />-->
-                                        <p style="margin-bottom: 5px;">In Osteoporosis and Calcium Deficiency</p>
+                                        <p style="margin-bottom: 5px;">For the Management of Type 2 Diabetes Mellitus</p>
                                         <h4 style="font-size: 26px; font-family:'Montserrat-Black'; margin-bottom: 0;">
-                                            <sup></sup>PERSHEL 500<sup> </sup>
+                                            <sup></sup>PERCLAZIDE SR 30<sup> </sup>
                                         </h4>
-                                        <p style="font-size: 22px; font-family: 'Swiss721-cn-BT'; margin-bottom: 0;">
-                                            Calcium and Vitamin D3 Tablets
+                                        <p style="font-size: 18px; font-style: italic; margin-bottom: 10px;">
+                                            "Steady Control, Once Daily"
                                         </p>
-                                        <p style="font-style: italic;">"Nature's Strength for Stronger Bones"</p>
                                     </div>
                                     <div class="ul-list">
                                         <ul style="margin-left: 15px; list-style-type: disc; ">
-                                            <li>Osteoporosis</li>
-                                            <li>Calcium Deficiency</li>
-                                            <li>Vitamin D3 Deficiency</li>
-                                            <li>Postmenopausal Bone Health</li>
-                                            <li>General Bone Health</li>
+                                            <li>Once - daily dosing</li>
+                                            <li>Improved Patient compliance</li>
+                                            <li>Potentially leading to a lower risk of hypoglycemia spikes</li>
                                         </ul>
                                     </div>
+
+                                   
 
                                     <ul
                                         style="list-style-type: none;font-size: 14px;padding-left: 0px;margin-top: 30px;">
                                         <li>
-                                            <img src="images/product/icons/UV protected by Amber glass.png"
+                                            <img src="../images/product/icons/UV protected by Amber glass.png"
                                                 class="img-fluid icon-prd" />
                                             Amber Coloured Tablets
                                         </li>
                                         <li>
-                                            <img src="images/product/icons/nasal-spray.gif"
+                                            <img src="../images/product/icons/nasal-spray.gif"
                                                 class="img-fluid icon-prd" />
                                             15 Tablets per Strip
                                         </li>
                                         <li>
-                                            <img src="images/product/icons/Strength icon.gif"
+                                            <img src="../images/product/icons/Strength icon.gif"
                                                 class="img-fluid icon-prd" />
-                                            500 Mg
+                                            30 Mg
                                         </li>
-                                        <!-- <li>
-                                            <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
-                                            Pharmacopoeia - I.P.
-                                        </li> -->
-
+                                        <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+                                            <img src="../images/product/icons/IP BP USP.png" class="img-fluid icon-prd" style="margin-right: 10px; flex-shrink: 0; width: 30px;" />
+                                            <span>
+                                                
+                                                Each Uncoated Sustained Release Tablet Contains : Gliclazide 30 mg
+                                            </span>
                                         </li>
                                     </ul>
 
@@ -289,9 +289,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-12 video-resp">
-                            
-                        </div>
+                        
                     </div>
                 </div>
             </section>
@@ -306,12 +304,12 @@
                 <!--Next and Previous Button-->
                 <div class="pre-nxt-btn">
                     <button type="button" class="btn btn-bg-color btn-sm">
-                        <a href="product.php" style="color:#000;"><i class="id-color arrow_left fa-lg"
+                        <a href="lormand_ch.php" style="color:#000;"><i class="id-color arrow_left fa-lg"
                                 style="margin-right: 5px"></i>Previous</a>
                     </button>
-                    <p class="mx-3 mb-0">1/16</p>
+                    <p class="mx-3 mb-0">7/15</p>
                     <button type="button" class="btn btn-bg-color btn-sm">
-                        <a href="percoba.php" style="color:#000;">Next<i class="id-color arrow_right fa-lg"
+                        <a href="Perclazide_sr60.php" style="color:#000;">Next<i class="id-color arrow_right fa-lg"
                                 style="margin-right: 5px"></i></a>
                     </button>
                 </div>
@@ -322,34 +320,35 @@
 
         <!-- footer begin -->
         <?php
-            include('footer.php');
+        include('../footer.php');
         ?>
         <!-- footer close -->
     </div>
 
     <!-- Javascript Files
     ================================================== -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jpreLoader.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/easing.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/validation.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/enquire.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.plugin.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/jquery.countdown.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/designesia.js"></script>
-    <script src="js/header-scroll.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jpreLoader.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/jquery.isotope.min.js"></script>
+    <script src="../js/easing.js"></script>
+    <script src="../js/owl.carousel.js"></script>
+    <script src="../js/validation.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/enquire.min.js"></script>
+    <script src="../js/jquery.stellar.min.js"></script>
+    <script src="../js/jquery.plugin.js"></script>
+    <script src="../js/typed.js"></script>
+    <script src="../js/jquery.countTo.js"></script>
+    <script src="../js/jquery.countdown.js"></script>
+    <script src="../js/typed.js"></script>
+    <script src="../js/designesia.js"></script>
+    <script src="../js/header-scroll.js"></script>
 
 
 </body>
 
 </html>
+

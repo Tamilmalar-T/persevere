@@ -384,7 +384,7 @@
                       100mcg/ml
                     </li>
                     <li>
-                      <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />Pharmacopoeia - U.S.P.
+                      <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />P.
                     </li>
                     <li>
                       <img src="images/product/icons/Direction of Use.gif" class="img-fluid icon-prd" />I.V. Infusion after Dilution

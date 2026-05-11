@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'CircularStd-Book';
-    src: url('fonts/CircularStd-Book.ttf') format('truetype');
+    src: url('/fonts/CircularStd-Book.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Swiss721-cn-BT';
-    src: url('fonts/Swiss721CondensedBT.ttf') format('truetype');
+    src: url('/fonts/Swiss721CondensedBT.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Montserrat-Black';
-    src: url('fonts/Montserrat-Black.otf') format("opentype");
+    font-family: Montserrat-Black;
+    src: url('/fonts/Montserrat-Black.otf') format("opentype");
 }
 
 /*Global font using*/

@@ -193,7 +193,7 @@
               <a href="lormand-ch.php" style="color: #000"><i class="id-color arrow_left fa-lg"
                   style="margin-right: 5px"></i>Previous</a>
             </button>
-            <p class="mx-3 mb-0">7/16</p>
+            <p class="mx-3 mb-0">7/14</p>
             <button type="button" class="btn btn-bg-color btn-sm">
               <a href="proactfol.php" style="color: #000">Next<i class="id-color arrow_right fa-lg"
                   style="margin-right: 5px"></i></a>
@@ -301,7 +301,7 @@
                     </li>
 
                     <li>
-                      <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />Pharmacopoeia - I.P.
+                      <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
                     </li>
                     <li>
                       <img src="images/product/icons/Direction of Use.gif" class="img-fluid icon-prd" />
@@ -349,7 +349,7 @@
             <a href="lormand-ch.php" style="color: #000"><i class="id-color arrow_left fa-lg"
                 style="margin-right: 5px"></i>Previous</a>
           </button>
-          <p class="mx-3 mb-0">7/16</p>
+          <p class="mx-3 mb-0">7/14</p>
           <button type="button" class="btn btn-bg-color btn-sm">
             <a href="proactfol.php" style="color: #000">Next<i class="id-color arrow_right fa-lg"
                 style="margin-right: 5px"></i></a>

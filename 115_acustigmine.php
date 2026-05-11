@@ -418,7 +418,7 @@
                       <img src="images/product/icons/Strength icon.gif" class="img-fluid icon-prd" />0.5mg/ml & 2.5mg/5ml
                     </li>
                     <li>
-                        <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />Pharmacopoeia - I.P.
+                        <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
                     </li>
         
                     <li>

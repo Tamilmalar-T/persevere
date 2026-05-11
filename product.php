@@ -37,6 +37,82 @@
       font-size: 20px;
     }
 
+    /* Attractive Category Box Style */
+    .category-box {
+      background: #ffffff;
+      border-radius: 15px;
+      padding: 15px 5px;
+      margin: 10px 5px;
+      text-align: center;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none !important;
+      border: 1px solid #eee;
+      height: 110px;
+    }
+
+    .category-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(49, 51, 128, 0.2);
+      border-color: #313380;
+    }
+
+    .category-box i {
+      font-size: 28px;
+      color: #313380;
+      margin-bottom: 8px;
+    }
+
+    .category-box span {
+      font-size: 11px;
+      font-weight: 700;
+      color: #313380;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .prd-menu-mob {
+      padding: 20px 10px !important;
+      background: #fdfdfd;
+    }
+
+    .prd-menu-mob h3 {
+      font-size: 18px;
+      font-family: 'Montserrat-Black';
+      color: #313380;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    /* Mobile Visibility Rules */
+    @media screen and (max-width: 767px) {
+      .prd-menu-mob {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        height: auto !important;
+      }
+
+      .prd-page-desk-right {
+        display: none !important;
+      }
+    }
+
+    /* Desktop Visibility Rules */
+    @media screen and (min-width: 768px) {
+      .prd-menu-mob {
+        display: none !important;
+      }
+
+      .prd-page-desk-right {
+        display: block !important;
+      }
+    }
+
     < !-- Carousel Product Mobile-->.owl-carousel {
       max-width: 700px;
       margin: 0 auto;
@@ -278,26 +354,63 @@
           <div class="row">
             <!--Mobile product menu-->
             <div class="col-12 product-menu prd-menu-mob">
-              <div style="text-align: end; color: #000;">
-                <i class="fa fa-filter"></i>
-              </div>
+              <h3>BROWSE BY SPECIALTY</h3>
 
               <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="anesthesia" role="tabpanel" aria-labelledby="anesthesia-tab">
                   <!--Sub tab menu list-->
 
-                  <div class="owl-carousel owl-theme" style="padding-left: 28px;">
-                    <div class="item"><a id="pre-medicaments-tab-mob" data-toggle="pill" href="#pre-medicaments-mob"
-                        role="tab" aria-controls="pre-medicaments" aria-selected="true">
-                        <img class="image-highlight" style="width: 80px; text-align: center;"
-                          src="images\menu\anaesthesia\pre.png" /></a></div>
-                    <div class="item"><a id="anticholinergic-tab-mob" data-toggle="pill" href="#anticholinergic-mob"
-                        role="tab" aria-controls="anticholinergic" aria-selected="false"><img class="image-highlight"
-                          style="width: 80px;" src="images\menu\anaesthesia\Anticholinergic.png" /></a></div>
-                    <div class="item"><a id="induction-agents-tab-mob" data-toggle="pill" href="#induction-agents-mob"
-                        role="tab" aria-controls="induction-agents" aria-selected="false"><img class="image-highlight"
-                          style="width: 80px;" src="images\menu\anaesthesia\induction_agent.png" /></a></div>
-
+                  <div class="row px-2">
+                    <div class="col-6 px-1 mb-2">
+                       <a href="categorys/gynaecology.php" class="category-box">
+                   <i class="fa fa-female"></i>
+                        <span>Gynaecology</span>
+                      </a>
+                    </div>
+                 
+                    <div class="col-6 px-1 mb-2">
+                         <a href="categorys/cardiology.php" class="category-box">
+                        <i class="fa fa-heartbeat"></i>
+                        <span>Cardiology</span>
+                      </a>
+                    </div>
+                    <div class="col-6 px-1 mb-2">
+                      <a href="categorys/diabetology.php" class="category-box">
+                        <i class="fa fa-tint"></i>
+                        <span>Diabetology</span>
+                      </a>
+                    </div>
+                    <div class="col-6 px-1 mb-2">
+                      <a href="categorys/orthopedics.php" class="category-box">
+                        <i class="fa fa-medkit"></i>
+                        <span>Orthopedics</span>
+                      </a>
+                    </div>
+                    <div class="col-6 px-1 mb-2">
+                      <a href="categorys/neurology.php" class="category-box">
+                        <i class="fa fa-user-md"></i>
+                        <span>Neurology</span>
+                      </a>
+                    </div>
+                    <div class="col-6 px-1 mb-2">
+                      <a href="categorys/pulmonology.php" class="category-box">
+                        <i class="fa fa-stethoscope"></i>
+                        <span>Pulmonology</span>
+                      </a>
+                    </div>
+                    <div class="col-6 px-1 mb-2">
+                      <a href="categorys/endocrinology.php" class="category-box">
+                        <i class="fa fa-plus-square"></i>
+                        <span>Endocrinology</span>
+                      </a>
+                    </div>
+                    <div class="col-6 px-1 mb-2">
+                      <a href="categorys/endocrinology.php" class="category-box">
+                        <i class="fa fa-plus-square"></i>
+                        <span>Demoto</span>
+                      </a>
+                    </div>
+                    
                   </div>
                 </div>
 
@@ -341,10 +454,10 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img ">
-                          <a href="pershel500.php"><img style="height:190px" src="images/product/pershel500.jfif"
-                              class="img-fluid" /></a>
+                          <a href="Products/pershel500.php"><img style="height:190px"
+                              src="images/product/pershel500.jfif" class="img-fluid" /></a>
                         </div>
-                        <a href="lamzomid-ns.php">
+                        <a href="Products/pershel500.php">
                           <h6 class="text-center text"> PERSHEL<span style="font-size: 14px;"></span> 500 </h6>
                           <p class="text-center text"> </p>
                         </a>
@@ -355,9 +468,9 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="percoba.php"><img src="images/product/Percoba.jfif" class="img-fluid" /></a>
+                          <a href="Products/percoba.php"><img src="images/product/Percoba.jfif" class="img-fluid" /></a>
                         </div>
-                        <a href="percoba.php">
+                        <a href="Products/percoba.php">
                           <h6 class="text-center text">PERCOBA<span style="font-size: 14px;"></span>
                           </h6>
                           <p class="text-center text">
@@ -370,10 +483,10 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="percoba-pg.php"><img style="height:190px" src="images/product/percoba-pg.jfif"
-                              class="img-fluid" /></a>
+                          <a href="Products/percoba-pg.php"><img style="height:190px"
+                              src="images/product/percoba-pg.jfif" class="img-fluid" /></a>
                         </div>
-                        <a href="percoba-pg.php">
+                        <a href="Products/percoba-pg.php">
                           <h6 class="text-center text"> PERCOBA-PG<span style="font-size: 14px;"></span> <span
                               class="avail-size"></span></h6>
                           <p class="text-center text"> </p>
@@ -385,10 +498,11 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="Persride_m1.php"><img style="margin-top:35px;padding-right:10px;height:140px"
-                              src="images/product/Persride.jfif" class="img-fluid" /></a>
+                          <a href="Products/Persride_m1.php"><img
+                              style="margin-top:35px;padding-right:10px;height:140px" src="images/product/Persride.jfif"
+                              class="img-fluid" /></a>
                         </div>
-                        <a href="Persride_m1.php">
+                        <a href="Products/Persride_m1.php">
                           <h6 class="text-center text"> PERSRIDE M1<span style="font-size: 14px;"></span> <span
                               class="avail-size"></span></h6>
                           <p class="text-center text"></p>
@@ -400,10 +514,11 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="Persride_m2.php"><img style="margin-top:35px;padding-right:10px;height:150px"
-                              src="images/product/Persride.jfif" class="img-fluid" /></a>
+                          <a href="Products/Persride_m2.php"><img
+                              style="margin-top:35px;padding-right:10px;height:150px" src="images/product/Persride.jfif"
+                              class="img-fluid" /></a>
                         </div>
-                        <a href="Persride_m2.php">
+                        <a href="Products/Persride_m2.php">
                           <h6 class="text-center text">PERSRIDE M2<span style="font-size: 14px;"></span></h6>
                           <p class="text-center text">
                           </p>
@@ -415,10 +530,10 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="lormand_ch.php"><img style="margin-top:30px;padding-right:10px;height:160px"
+                          <a href="Products/lormand_ch.php"><img style="margin-top:30px;padding-right:10px;height:160px"
                               src="images/product/lormand-ch.jfif" class="img-fluid" /></a>
                         </div>
-                        <a href="lormand_ch.php">
+                        <a href="Products/lormand_ch.php">
                           <h6 class="text-center text">LORMAND CH<span style="font-size: 14px;"></span></h6>
                           <p class="text-center text">
 
@@ -436,10 +551,10 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="Perclazide_sr30.php"><img src="images/product/Perclazide-sr-30.jfif"
+                          <a href="Products/Perclazide_sr30.php"><img src="images/product/Perclazide-sr-30.jfif"
                               class="img-fluid" /></a>
                         </div>
-                        <a href="Perclazide_sr30.php">
+                        <a href="Products/Perclazide_sr30.php">
                           <h6 class="text-center text">PERCLAZIDE SR 30<span style="font-size: 14px;"></span>
                           </h6>
                           <p class="text-center text">
@@ -454,9 +569,10 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="Perclazide_sr60.php"><img src="images/product/Perclazide-sr.jfif" class="img-fluid" /></a>
+                          <a href="Products/Perclazide_sr60.php"><img src="images/product/Perclazide-sr.jfif"
+                              class="img-fluid" /></a>
                         </div>
-                        <a href="Perclazide_sr60.php">
+                        <a href="Products/Perclazide_sr60.php">
                           <h6 class="text-center text">PERCLAZIDE SR 60<span style="font-size: 14px;"></span>
                           </h6>
                           <p class="text-center text">
@@ -469,9 +585,10 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="duloxalin_75.php"><img src="images/product/duloxalin.jfif" class="img-fluid" /></a>
+                          <a href="Products/duloxalin_75.php"><img src="images/product/duloxalin.jfif"
+                              class="img-fluid" /></a>
                         </div>
-                        <a href="duloxalin_75.php">
+                        <a href="Products/duloxalin_75.php">
                           <h6 class="text-center text">DULOXALIN 75/20<span style="font-size: 14px;"></span>
                           </h6>
                           <p class="text-center text">
@@ -484,9 +601,10 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="pershel_d3.php"><img src="images/product/pershel-d3.jfif" class="img-fluid" /></a>
+                          <a href="Products/pershel_d3.php"><img src="images/product/pershel-d3.jfif"
+                              class="img-fluid" /></a>
                         </div>
-                        <a href="pershel_d3.php">
+                        <a href="Products/pershel_d3.php">
                           <h6 class="text-center text">PERSHEL-D3<span style="font-size: 14px;"></span>
                           </h6>
                           <p class="text-center text">
@@ -499,9 +617,10 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="esovere_40.php"><img src="images/product/espvere-40.jfif" class="img-fluid" /></a>
+                          <a href="Products/esovere_40.php"><img src="images/product/espvere-40.jfif"
+                              class="img-fluid" /></a>
                         </div>
-                        <a href="esovere_40.php">
+                        <a href="Products/esovere_40.php">
                           <h6 class="text-center text">ESOVERE-40<span style="font-size: 14px;"></span>
                           </h6>
                           <p class="text-center text">
@@ -514,9 +633,10 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="amlovere-h.php"><img src="images/product/amlovere-h.jfif" class="img-fluid" /></a>
+                          <a href="Products/amlovere-h.php"><img src="images/product/amlovere-h.jfif"
+                              class="img-fluid" /></a>
                         </div>
-                        <a href="amlovere-h.php">
+                        <a href="Products/amlovere-h.php">
                           <h6 class="text-center text">AMLOVERE-H<span style="font-size: 14px;"></span>
                           </h6>
                           <p class="text-center text">
@@ -529,10 +649,43 @@
                     <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="perblast.php"><img src="images/product/perblast.jfif" class="img-fluid" /></a>
+                          <a href="Products/perblast.php"><img src="images/product/perblast.jfif"
+                              class="img-fluid" /></a>
                         </div>
-                        <a href="perblast.php">
+                        <a href="Products/perblast.php">
                           <h6 class="text-center text">PERBLAST-M<span style="font-size: 14px;"></span>
+                          </h6>
+                          <p class="text-center text">
+                          </p>
+                        </a>
+                      </div>
+                    </div>
+
+                    <!--Product 14-->
+                    <div class="col-lg-2 col-md-4 product-view pt20">
+                      <div class="product-disp">
+                        <div class="product-img">
+                          <a href="Products/percortisone.php"><img src="images/product/percortisone.jfif"
+                              class="img-fluid" /></a>
+                        </div>
+                        <a href="Products/percortisone.php">
+                          <h6 class="text-center text">PERCORTISONE 10mg<span style="font-size: 14px;"></span>
+                          </h6>
+                          <p class="text-center text">
+                          </p>
+                        </a>
+                      </div>
+                    </div>
+
+                    <!--Product 15-->
+                    <div class="col-lg-2 col-md-4 product-view pt20">
+                      <div class="product-disp">
+                        <div class="product-img">
+                          <a href="Products/beniper_4.php"><img src="images/product/beniper_4.jpeg" class="img-fluid"
+                              /></a>
+                        </div>
+                        <a href="Products/beniper4.php">
+                          <h6 class="text-center text">BENIPER 4<span style="font-size: 14px;"></span>
                           </h6>
                           <p class="text-center text">
                           </p>
@@ -551,7 +704,7 @@
                   <div class="row">
 
                     <!--Product 1-->
-                    <div class="col-lg-3 col-md-4 product-view pt20">
+                    <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
                           <a href="lamzomid-ns.php"><img style="height:190px"
@@ -559,7 +712,8 @@
                         </div>
                         <a href="lamzomid-ns.php">
                           <h6 class="text-center text">Lamzomid<span style="font-size: 14px;"><sup>®</sup></span> N.S.
-                            <!-- <span class="avail-size">(5ml/10ml)</span>--></h6>
+                            <!-- <span class="avail-size">(5ml/10ml)</span>-->
+                          </h6>
                           <p class="text-center text">
                             Midazolam Nasal Spray
                           </p>
@@ -568,13 +722,13 @@
                     </div>
 
                     <!--Product 2-->
-                    <div class="col-lg-3 col-md-4 product-view pt20">
+                    <div class="col-lg-2 col-md-4 product-view pt20">
                       <div class="product-disp">
                         <div class="product-img">
-                          <a href="lamzomid.php"><img style="height:190px" src="images/product/lamzomid 5ml.jfif"
+                          <a href="102_lamzomid.php"><img style="height:190px" src="images/product/lamzomid 5ml.jfif"
                               class="img-fluid" /></a>
                         </div>
-                        <a href="lamzomid.php">
+                        <a href="102_lamzomid.php">
                           <h6 class="text-center text">Lamzomid<span style="font-size: 14px;"><sup>®</sup></span> <span
                               class="avail-size">(5ml/10ml/1ml)</span></h6>
                           <p class="text-center text">
@@ -601,10 +755,10 @@
                         <div class="col-6 product-view pt20">
                           <div class="product-disp">
                             <div class="product-img">
-                              <a href="lamzomid-ns.php"><img src="images/product/2.Lamzomid - 1.25mg NS4.jfif"
+                              <a href="Products/pershel500.php"><img src="images/product/2.Lamzomid - 1.25mg NS4.jfif"
                                   class="img-fluid" /></a>
                             </div>
-                            <a href="lamzomid-ns.php">
+                            <a href="Products/pershel500.php">
                               <h6 class="text-center text">
                                 PERSHEL<span style="font-size: 14px;"></span> 500
                               </h6>
@@ -619,10 +773,10 @@
                         <div class="col-6 product-view pt20">
                           <div class="product-disp">
                             <div class="product-img">
-                              <a href="lamzomid.php"><img src="images/product/lamzomid 5ml.jfif"
+                              <a href="102_lamzomid.php"><img src="images/product/lamzomid 5ml.jfif"
                                   class="img-fluid" /></a>
                             </div>
-                            <a href="lamzomid.php">
+                            <a href="102_lamzomid.php">
                               <h6 class="text-center text">
                                 Lamzomid<span style="font-size: 14px;"><sup>®</sup></span> <span
                                   class="avail-size">(5ml/10ml/1ml)
@@ -639,10 +793,10 @@
                         <div class="col-6 product-view pt20">
                           <div class="product-disp">
                             <div class="product-img">
-                              <a href="dexunique-50-100.php"><img style="height:90px; margin-top:35px;"
+                              <a href="103_dexunique-50-100.php"><img style="height:90px; margin-top:35px;"
                                   src="images/product/6. Dexunique 0.5ml.jpg" class="img-fluid" /></a>
                             </div>
-                            <a href="dexunique-50-100.php">
+                            <a href="103_dexunique-50-100.php">
                               <h6 class="text-center text">
                                 Dexunique<span style="font-size: 14px;"><sup>®</sup></span> <span
                                   class="avail-size">(50/100)</span>
@@ -658,10 +812,10 @@
                         <div class="col-6 product-view pt20">
                           <div class="product-disp">
                             <div class="product-img">
-                              <a href="cloncure.php"><img style="height:90px;margin-top:35px;"
+                              <a href="104_cloncure.php"><img style="height:90px;margin-top:35px;"
                                   src="images/product-new/8. Cloncure.jpg" class="img-fluid" /></a>
                             </div>
-                            <a href="cloncure.php">
+                            <a href="104_cloncure.php">
                               <h6 class="text-center text">Cloncure<span style="font-size: 14px;"><sup>®</sup></span>
                               </h6>
                               <p class="text-center text">
@@ -675,10 +829,10 @@
                         <div class="col-6 product-view pt20">
                           <div class="product-disp">
                             <div class="product-img">
-                              <a href="cutropin.php"><img style="height:100px;margin-top:35px;"
+                              <a href="105_cutropin.php"><img style="height:100px;margin-top:35px;"
                                   src="images/product-new/9. Cutropin.jpg" class="img-fluid" /></a>
                             </div>
-                            <a href="cutropin.php">
+                            <a href="105_cutropin.php">
                               <h6 class="text-center text">Cutropin<span style="font-size: 14px;"><sup>®</sup></span>
                               </h6>
                               <p class="text-center text">
@@ -691,10 +845,10 @@
                         <div class="col-6 product-view pt20">
                           <div class="product-disp">
                             <div class="product-img">
-                              <a href="acrolate.php"><img style="height:120px;margin-top:20px;"
+                              <a href="106_acrolate.php"><img style="height:120px;margin-top:20px;"
                                   src="images/product-new/10. Acrolate 1ml.jpg" class="img-fluid" /></a>
                             </div>
-                            <a href="acrolate.php">
+                            <a href="106_acrolate.php">
                               <h6 class="text-center text">Acrolate<span style="font-size: 14px;"><sup>®</sup></span>
                               </h6>
                               <p class="text-center text">
@@ -735,10 +889,10 @@
                         <div class="col-6 product-view pt20">
                           <div class="product-disp">
                             <div class="product-img">
-                              <a href="lamzomid.php"><img src="images/product/lamzomid 5ml.jfif"
+                              <a href="102_lamzomid.php"><img src="images/product/lamzomid 5ml.jfif"
                                   class="img-fluid" /></a>
                             </div>
-                            <a href="lamzomid.php">
+                            <a href="102_lamzomid.php">
                               <h6 class="text-center text">Lamzomid<span style="font-size: 14px;"></span> <span
                                   class="avail-size">(5ml/10ml/1ml)</span></h6>
                               <p class="text-center text">
@@ -752,12 +906,13 @@
                         <div class="col-6 product-view pt20">
                           <div class="product-disp">
                             <div class="product-img">
-                              <a href="dexunique-50-100.php"><img style="height:90px; margin-top:35px;"
+                              <a href="103_dexunique-50-100.php"><img style="height:90px; margin-top:35px;"
                                   src="images/product/6. Dexunique 0.5ml.jpg" class="img-fluid" /></a>
                             </div>
-                            <a href="dexunique-50-100.php">
+                            <a href="103_dexunique-50-100.php">
                               <h6 class="text-center text">Dexunique<span style="font-size: 14px;"><sup>®</sup></span>
-                                <span class="avail-size">(50/100)</span></h6>
+                                <span class="avail-size">(50/100)</span>
+                              </h6>
                               <p class="text-center text">
                                 Dexmedetomidine Hydrochloride Injection U.S.P.
                               </p>
@@ -768,10 +923,10 @@
                         <div class="col-6 product-view pt20">
                           <div class="product-disp">
                             <div class="product-img">
-                              <a href="cloncure.php"><img style="height:90px;margin-top:35px;"
+                              <a href="104_cloncure.php"><img style="height:90px;margin-top:35px;"
                                   src="images/product-new/8. Cloncure.jpg" class="img-fluid" /></a>
                             </div>
-                            <a href="cloncure.php">
+                            <a href="104_cloncure.php">
                               <h6 class="text-center text">Clonure<span style="font-size: 14px;"><sup>®</sup></span>
                               </h6>
                               <p class="text-center text">
@@ -794,10 +949,10 @@
                         <div class="col-6 product-view pt20">
                           <div class="product-disp">
                             <div class="product-img">
-                              <a href="cutropin.php"><img style="height:100px;margin-top:35px;"
+                              <a href="105_cutropin.php"><img style="height:100px;margin-top:35px;"
                                   src="images/product-new/9. Cutropin.jpg" class="img-fluid" /></a>
                             </div>
-                            <a href="cutropin.php">
+                            <a href="105_cutropin.php">
                               <h6 class="text-center text">Cutropin<span style="font-size: 14px;"><sup>®</sup></span>
                               </h6>
                               <p class="text-center text">
@@ -811,10 +966,10 @@
                         <div class="col-6 product-view pt20">
                           <div class="product-disp">
                             <div class="product-img">
-                              <a href="acrolate.php"><img style="height:120px;margin-top:20px;"
+                              <a href="106_acrolate.php"><img style="height:120px;margin-top:20px;"
                                   src="images/product-new/10. Acrolate 1ml.jpg" class="img-fluid" /></a>
                             </div>
-                            <a href="acrolate.php">
+                            <a href="106_acrolate.php">
                               <h6 class="text-center text">Acrolate<span style="font-size: 14px;"><sup>®</sup></span>
                               </h6>
                               <p class="text-center text">

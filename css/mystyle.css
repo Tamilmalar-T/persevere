@@ -13,7 +13,13 @@
     src: url('../fonts/Montserrat-Black.otf') format("opentype");
 }
 
-p, span, a, ul, li, ol, div {
+p,
+span,
+a,
+ul,
+li,
+ol,
+div {
     font-family: CircularStd-Book;
 }
 
@@ -940,9 +946,10 @@ a#pills-home-tab {
     }
 
 }
-.dsk-mob-h3{
-        font-size:30px;
-    }
+
+.dsk-mob-h3 {
+    font-size: 30px;
+}
 
 /* MEDIA QUERY FOR MOBILE */
 
@@ -954,16 +961,16 @@ a#pills-home-tab {
         color: #ffff;
         z-index: 999;
     }
-    
+
     .mt-3.media-btn-mob {
         text-align: end;
     }
-    
+
     @media screen and (max-width: 425px) {
-    .mt-3.media-btn-mob {
-        text-align: center;
+        .mt-3.media-btn-mob {
+            text-align: center;
+        }
     }
-}
 
     .prod-nav-mob {
         gap: 5px !important;
@@ -1153,18 +1160,19 @@ a#pills-home-tab {
     }
 
     @media screen and (max-width: 425px) {
-    .pt10 {
-        padding-top: 10px !important;
+        .pt10 {
+            padding-top: 10px !important;
+        }
     }
-    }
-    
+
     .prd-hm-btn {
         padding: 2px 8px !important;
     }
+
     @media screen and (max-width: 425px) {
-    .pb10 {
-        padding-bottom: 15px !important;
-    }
+        .pb10 {
+            padding-bottom: 15px !important;
+        }
     }
 
     .product-sec-mobile {
@@ -1191,24 +1199,30 @@ a#pills-home-tab {
         margin-bottom: 5px !important;
         padding-bottom: 0px !important;
     }
+
     .call-us-h3-mob p {
-        font-size:15px;
+        font-size: 15px;
     }
+
     .mob-a {
         text-align: end;
     }
-    .mob-span{
-        display:none;
+
+    .mob-span {
+        display: none;
     }
-    .mob-btm{
-        margin-bottom:-18px;
+
+    .mob-btm {
+        margin-bottom: -18px;
     }
+
     a.btn-custom {
-        background-color: #2d347f!important;
-        color: #fff!important;
+        background-color: #2d347f !important;
+        color: #fff !important;
     }
-    .dsk-mob-h3{
-        font-size:24px;
+
+    .dsk-mob-h3 {
+        font-size: 24px;
     }
 
     .call-us-h3-mob h3 {
@@ -1537,30 +1551,34 @@ li {
     padding: 3px;
     border-radius: 5px;
     border: 11px;
-    background-color: rgb(245,197,46);
+    background-color: rgb(245, 197, 46);
 }
+
 .image-highlight.active {
     padding: 3px;
     border-radius: 5px;
     border: 11px;
-    background-color: rgb(245,197,46);
+    background-color: rgb(245, 197, 46);
 }
+
 button.buttonarrow {
     padding: 6px 20px 6px 20px;
     background-color: yellow;
     border: none;
 }
+
 @media screen and (max-width:420px) {
     button.buttonarrow {
-    padding: 6px 28px 6px 20px;
-    background-color: yellow;
-    border: none;
-}
-button.subscribearrow {
-    padding: 6px 14px 6px 20px;
-    background-color: yellow;
-    border: none;
-}                               
+        padding: 6px 28px 6px 20px;
+        background-color: yellow;
+        border: none;
+    }
+
+    button.subscribearrow {
+        padding: 6px 14px 6px 20px;
+        background-color: yellow;
+        border: none;
+    }
 }
 
 button.subscribearrow {

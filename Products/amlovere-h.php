@@ -12,24 +12,24 @@
     <!-- CSS Files
     ================================================== -->
     <!--Custom css-->
-    <link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+    <link href="../css/mystyle.css" rel="stylesheet" type="text/css" />
 
     <!--Predefined css-->
-    <link href="css/jpreloader.css" rel="stylesheet" type="text/css" />
-    <link id="bootstrap" href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link id="bootstrap-grid" href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
-    <link id="bootstrap-reboot" href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/animate.css" rel="stylesheet" type="text/css" />
-    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
-    <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
-    <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
-    <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../css/jpreloader.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap" href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-grid" href="../css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-reboot" href="../css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="../css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="../css/owl.theme.css" rel="stylesheet" type="text/css" />
+    <link href="../css/owl.transitions.css" rel="stylesheet" type="text/css" />
+    <link href="../css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="../css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
 
     <!-- color scheme -->
-    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
-    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+    <link id="colors" href="../css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
+    <link href="../css/coloring.css" rel="stylesheet" type="text/css" />
 
     <style>
         .post-text h4 a {
@@ -62,9 +62,9 @@
                             <div class="de-flex-col">
                                 <!-- logo begin -->
                                 <div id="logo">
-                                    <a href="index.php">
-                                        <img alt="" class="logo" width="70%" src="images/Demo-Logo.png" />
-                                        <img alt="" class="logo-2" width="50%" src="images/pershel500.jfif" />
+                                    <a href="../index.php">
+                                        <img alt="" class="logo" width="70%" src="../images/Demo-Logo.png" />
+                                        <img alt="" class="logo-2" width="50%" src="../images/pershel500.jfif" />
                                     </a>
                                 </div>
                                 <!-- logo close -->
@@ -73,13 +73,13 @@
                                 <!-- mainmenu begin -->
                                 <ul id="mainmenu">
                                     <li>
-                                        <a href="index.php">Home<span></span></a>
+                                        <a href="../index.php">Home<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="about.php">Company<span></span></a>
+                                        <a href="../about.php">Company<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="product.php">Products<span></span></a>
+                                        <a href="../product.php">Products<span></span></a>
                                         <ul>
                                             <li><a href="#">Anaesthesia</a></li>
                                             <li><a href="#">Critical Care</a></li>
@@ -87,12 +87,12 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="media.php">Media<span></span></a>
+                                        <a href="../media.php">Media<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="careers.php">Career<span></span></a>
+                                        <a href="../careers.php">Career<span></span></a>
                                     </li>
-                                    <li><a href="contact.php">Contact Us</a></li>
+                                    <li><a href="../contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div class="de-flex-col">
@@ -113,8 +113,8 @@
                             <div class="de-flex-col">
                                 <!-- logo begin -->
                                 <div id="logo" class="text-center">
-                                    <a href="index.php">
-                                        <img alt="" class="" width="70%" src="images/PersevereLogo.png" />
+                                    <a href="../index.php">
+                                        <img alt="" class="" width="70%" src="../images/PersevereLogo.png" />
 
                                     </a>
                                 </div>
@@ -124,22 +124,22 @@
                                 <!-- mainmenu begin -->
                                 <ul id="mainmenu">
                                     <li>
-                                        <a href="index.php">Home<span></span></a>
+                                        <a href="../index.php">Home<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="about.php">Company<span></span></a>
+                                        <a href="../about.php">Company<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="product.php">Products<span></span></a>
+                                        <a href="../product.php">Products<span></span></a>
 
                                     </li>
                                     <li>
-                                        <a href="media.php">Media<span></span></a>
+                                        <a href="../media.php">Media<span></span></a>
                                     </li>
                                     <li>
-                                        <a href="careers.php">Career<span></span></a>
+                                        <a href="../careers.php">Career<span></span></a>
                                     </li>
-                                    <li><a href="contact.php">Contact Us</a></li>
+                                    <li><a href="../contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -177,13 +177,13 @@
                     <!--Next and Previous Button-->
                     <div class="pre-nxt-btn">
                         <button type="button" class="btn btn-bg-color btn-sm">
-                            <a href="Perclazide_sr60.php" style="color:#000;"><i class="id-color arrow_left fa-lg"
-                                     style="margin-right: 5px"></i>Previous</a>
+                            <a href="esovere_40.php" style="color:#000;"><i class="id-color arrow_left fa-lg"
+                                    style="margin-right: 5px"></i>Previous</a>
                         </button>
-                        <p class="mx-3 mb-0">9/16</p>
+                        <p class="mx-3 mb-0">12/15</p>
                         <button type="button" class="btn btn-bg-color btn-sm">
-                            <a href="pershel_d3.php" style="color:#000;">Next<i class="id-color arrow_right fa-lg"
-                                     style="margin-right: 5px"></i></a>
+                            <a href="perblast.php" style="color:#000;">Next<i class="id-color arrow_right fa-lg"
+                                    style="margin-right: 5px"></i></a>
                         </button>
                     </div>
                 </div>
@@ -194,21 +194,22 @@
             <section class="pt0 pb-5 btm-space">
                 <div id="prd-detail" class="container-fluid" style="padding: 0px 0px 0px 70px">
                     <div class="row no-gutters">
-                        <div class="col-lg-8 col-md-12 pt10">
+                        <div class="col-lg-12 col-md-12 pt10">
                             <div class="row">
                                 <!--Product display-->
-                                <h4><a href="product.php" class="text-black"><i class="id-color arrow_left fa-lg"
-                                            style="margin-right: 5px"></i> CATEGORY</a></h4>
+                                <h4><a href="../product.php" class="text-black"><i class="id-color arrow_left fa-lg"
+                                            style="margin-right: 5px"></i>PRODUCTS</a></h4>
 
 
                                 <div class="col-lg-6 col-md-6 mob-prd">
                                     <div class="d-flex" style="flex-direction: column; justify-content: center">
                                         <div class="prod-detail-mob mt-4 ">
                                             <h4 style="font-size: 26px; font-family:'Montserrat-Black'; margin-bottom: 0;"
-                                            class="prd-big-head"> DULOXALIN 75/20</h4>
-                                            <p style="margin-bottom: 5px;">Double the Action, Double the Relief</p>
+                                                class="prd-big-head"> AMLOVERE-H</h4>
+                                            <p style="margin-bottom: 5px;">(Amlodipine 5mg + Hydrochlorothiazide 12.5
+                                                mg)</p>
                                             <p style="font-size: 18px; font-style: italic; margin-bottom: 10px;">
-                                                "Conquer Pain and Calm Your Patient Mind"
+                                                "Two Mechanisms. One Powerful BP Control."
                                             </p>
                                         </div>
 
@@ -216,7 +217,7 @@
                                             <div class="tab-content-container mb-5" id="pills-tabContent">
                                                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                                                     aria-labelledby="pills-home-tab">
-                                                    <img src="images/product/duloxalin.jfif" width="190"
+                                                    <img src="../images/product/amlovere-h.jfif" width="190"
                                                         height="auto" />
                                                 </div>
                                             </div>
@@ -227,7 +228,7 @@
                                                     <li class="nav-item">
                                                         <a class="avail-type active" id="pills-home-tab"
                                                             data-toggle="pill" href="#pills-home" role="tab"
-                                                            aria-controls="pills-home" aria-selected="true">10 Capsules
+                                                            aria-controls="pills-home" aria-selected="true">10 Tablets
                                                             per each Strip</a>
                                                     </li>
                                                 </ul>
@@ -240,50 +241,49 @@
 
                                 <div class="col-lg-6 col-md-6">
                                     <div class="prod-detail-desk">
-                                        <p style="margin-bottom: 5px;">Double the Action, Double the Relief</p>
                                         <h4 style="font-size: 26px; font-family:'Montserrat-Black'; margin-bottom: 0;">
-                                            <sup></sup>DULOXALIN 75/20<sup> </sup>
+                                            <sup></sup>AMLOVERE-H<sup> </sup>
                                         </h4>
+                                        <p style="margin-bottom: 5px;">(Amlodipine 5mg + Hydrochlorothiazide 12.5 mg)
+                                        </p>
                                         <p style="font-size: 18px; font-style: italic; margin-bottom: 10px;">
-                                            "Conquer Pain and Calm Your Patient Mind"
+                                            "Two Mechanisms. One Powerful BP Control."
                                         </p>
                                     </div>
                                     <div class="ul-list">
                                         <ul style="margin-left: 15px; list-style-type: disc; ">
-                                            <li>Neuropathic pain</li>
-                                            <li>Fibromyalgia</li>
-                                            <li>Diabetic neuropathic pain</li>
-                                            <li>Generalized anxiety disorder</li>
-                                            <li>Postherpetic neuralgia</li>
-                                            <li>Spinal cord injury</li>
-                                            <li>Chronic musculoskeletal pain</li>
+                                            <li>Essential Hypertension</li>
+                                            <li>Patients inadequately controlled on monotherapy</li>
+                                            <li>Hypertension with fluid retention</li>
                                         </ul>
                                     </div>
 
-                                   
+
 
                                     <ul
                                         style="list-style-type: none;font-size: 14px;padding-left: 0px;margin-top: 30px;">
                                         <li>
-                                            <img src="images/product/icons/UV protected by Amber glass.png"
+                                            <img src="../images/product/icons/UV protected by Amber glass.png"
                                                 class="img-fluid icon-prd" />
-                                            Amber Coloured Capsules
+                                            Amber Coloured Tablets
                                         </li>
                                         <li>
-                                            <img src="images/product/icons/nasal-spray.gif"
+                                            <img src="../images/product/icons/nasal-spray.gif"
                                                 class="img-fluid icon-prd" />
-                                            10 Capsules per Strip
+                                            10 Tablets per Strip
                                         </li>
                                         <li>
-                                            <img src="images/product/icons/Strength icon.gif"
+                                            <img src="../images/product/icons/Strength icon.gif"
                                                 class="img-fluid icon-prd" />
-                                            75/20 Mg
+                                            5 mg
                                         </li>
                                         <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
-                                            <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" style="margin-right: 10px; flex-shrink: 0; width: 30px;" />
+                                            <img src="../images/product/icons/IP BP USP.png" class="img-fluid icon-prd"
+                                                style="margin-right: 10px; flex-shrink: 0; width: 30px;" />
                                             <span>
-                                                Pharmacopoeia - I.P. <br>
-                                                Each Capsule Contains : Pregabalin 75 mg & Duloxetine (Delayed Release) 20 mg
+
+                                                Each Uncoated Tablet Contains : Amlodipine Besilate I.P. equivalent to
+                                                Amlodipine 5 mg Hydrochlorothiazide I.P. 12.5 mg
                                             </span>
                                         </li>
                                     </ul>
@@ -293,9 +293,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-12 video-resp">
 
-                        </div>
                     </div>
                 </div>
             </section>
@@ -310,12 +308,12 @@
                 <!--Next and Previous Button-->
                 <div class="pre-nxt-btn">
                     <button type="button" class="btn btn-bg-color btn-sm">
-                        <a href="Perclazide_sr60.php" style="color:#000;"><i class="id-color arrow_left fa-lg"
+                        <a href="esovere_40.php" style="color:#000;"><i class="id-color arrow_left fa-lg"
                                 style="margin-right: 5px"></i>Previous</a>
                     </button>
-                    <p class="mx-3 mb-0">9/16</p>
+                    <p class="mx-3 mb-0">12/15</p>
                     <button type="button" class="btn btn-bg-color btn-sm">
-                        <a href="pershel_d3.php" style="color:#000;">Next<i class="id-color arrow_right fa-lg"
+                        <a href="perblast.php" style="color:#000;">Next<i class="id-color arrow_right fa-lg"
                                 style="margin-right: 5px"></i></a>
                     </button>
                 </div>
@@ -326,32 +324,32 @@
 
         <!-- footer begin -->
         <?php
-        include('footer.php');
+        include('../footer.php');
         ?>
         <!-- footer close -->
     </div>
 
     <!-- Javascript Files
     ================================================== -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jpreLoader.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/easing.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/validation.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/enquire.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.plugin.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/jquery.countdown.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/designesia.js"></script>
-    <script src="js/header-scroll.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jpreLoader.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/jquery.isotope.min.js"></script>
+    <script src="../js/easing.js"></script>
+    <script src="../js/owl.carousel.js"></script>
+    <script src="../js/validation.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/enquire.min.js"></script>
+    <script src="../js/jquery.stellar.min.js"></script>
+    <script src="../js/jquery.plugin.js"></script>
+    <script src="../js/typed.js"></script>
+    <script src="../js/jquery.countTo.js"></script>
+    <script src="../js/jquery.countdown.js"></script>
+    <script src="../js/typed.js"></script>
+    <script src="../js/designesia.js"></script>
+    <script src="../js/header-scroll.js"></script>
 
 
 </body>

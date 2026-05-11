@@ -373,7 +373,7 @@
                     </li>
                     <li>
                       <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
-                      Pharmacopoeia - I.P.
+                      
                     </li>
                     <li>
                       <img src="images/product/icons/Direction of Use.gif" class="img-fluid icon-prd" />
