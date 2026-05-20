@@ -370,7 +370,7 @@
                     </li>
                     <li>
                       <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
-                      
+                      Pharmacopoeia - I.P.
                     </li>
                     <li>
                       <img src="images/product/icons/Lyophilization with WFI.gif" class="img-fluid icon-prd" />

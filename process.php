@@ -53,30 +53,57 @@ error_reporting(0);
         require_once "PHPMailer/PHPMailerAutoload.php";
 // print_r($_POST);
 //         die();
+        $site_name = "Persevere Medica";
+        $from_email = "perseveremedica@gmail.com"; 
+        $password = "kzuw ubhd ynww ykuy"; 
+
         $mail = new PHPMailer();
-        //$mail->SMTPDebug = 3;  //Keep It commented this is used for debugging   
         $mail->IsSMTP();
         $mail->Host = "smtp.gmail.com";
         $mail->SMTPAuth = true; 
 
-        $mail->Username = "admin@Demo.in"; // SMTP username
-        // $mail->Password = "vqblidpawrjavnqs"; // SMTP password
-        // $mail->Password = "opsyphcynktdljuc"; // SMTP password
-        $mail->Password = "lprm izwz jnwr jfja"; //"pfue besg mqlo effk";
-        $mail->addAttachment($file_tmp,$file_name);
-        $mail->From = $email;
+        $mail->Username = $from_email;
+        $mail->Password = $password;
         $mail->SMTPSecure = 'tls'; 
-        $mail->Port = 587; //SMTP port
-        $mail->addAddress("admin@Demo.in", "Career");
-        $mail->Subject = "You have an email from a Career!";
+        $mail->Port = 587; 
+
+        $mail->smtpConnect([
+            'ssl' => [
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            ]
+        ]);
+
+        // 1. Send Email to Admin (Self)
+        $mail->isHTML(true);
+        $mail->setFrom($from_email, $site_name);
+        $mail->addAddress($from_email); 
+        $mail->addAttachment($file_tmp, $file_name);
+        $mail->Subject = "Job Application: $job from $name";
         $mail->Body ="
-        Name: $name<br>
-        Email: $email<br>
-        Phone: $phone<br>
-        Job: $Job<br>
-        Message: $message";
-        $mail->AltBody = $message;
-        
+            <h1>Job Application Details</h1>
+            <p><b>Name:</b> $name</p>
+            <p><b>Email:</b> $email</p>
+            <p><b>Phone:</b> $phone</p>
+            <p><b>Job Title:</b> $job</p>
+            <p><b>Message:</b><br>$message</p>
+        ";
+        $mail->send();
+
+        // 2. Send Confirmation Email to User
+        $mail->clearAddresses();
+        $mail->clearAttachments();
+        $mail->addAddress($email);
+        $mail->Subject = "Application Received: $site_name";
+        $mail->Body = "
+            <h1>Dear $name,</h1>
+            <p>Thank you for applying for the <b>$job</b> position at Persevere Medica. We have received your application and resume.</p>
+            <p>Our HR team will review your profile and get back to you if your qualifications match our requirements.</p>
+            <br>
+            <p>Best Regards,<br>HR Team, Persevere Medica</p>
+        ";
+
         if(!$mail->Send())
         {
             echo "Message could not be sent. <p>";

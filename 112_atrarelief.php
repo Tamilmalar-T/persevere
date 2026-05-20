@@ -354,7 +354,7 @@
                         </li>
                         <li>
                           <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
-                          
+                          Pharmacopoeia - I.P.
                         </li>
                         <li>
                           <img src="images/product/icons/Cold Chain product.png" class="img-fluid icon-prd" />
@@ -388,13 +388,13 @@
 
                   <!-- <div class="row">
                                         <div class="col-lg-5 col-md-5 col-sm-5 text-align: right;">
-                                            <p style="margin-bottom: 0px;"></p>
+                                            <p style="margin-bottom: 0px;">Pharmacopoeia - I.P</p>
                                         </div>
                                         <div class="col-lg-2 col-md-2 col-sm-2 text-align: center;">
                                             <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
                                         </div>
                                         <div class="col-lg-5 col-md-5 col-sm-5 text-align: left;">
-                                            <p style="margin-bottom: 0px;"></p>
+                                            <p style="margin-bottom: 0px;">Pharmacopoeia - I.P</p>
                                         </div>
                                     </div>
                                     <div class="row">

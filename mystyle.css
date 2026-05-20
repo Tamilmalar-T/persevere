@@ -958,9 +958,10 @@ a#pills-home-tab {
     }
 
 }
-.dsk-mob-h3{
-        font-size:30px;
-    }
+
+.dsk-mob-h3 {
+    font-size: 30px;
+}
 
 /* MEDIA QUERY FOR MOBILE */
 
@@ -972,7 +973,7 @@ a#pills-home-tab {
         color: #ffff;
         z-index: 999;
     }
-    
+
     .mt-3.media-btn-mob {
         text-align: end;
     }
@@ -1192,24 +1193,30 @@ a#pills-home-tab {
         margin-bottom: 5px !important;
         padding-bottom: 0px !important;
     }
+
     .call-us-h3-mob p {
-        font-size:15px;
+        font-size: 15px;
     }
+
     .mob-a {
         text-align: end;
     }
-    .mob-span{
-        display:none;
+
+    .mob-span {
+        display: none;
     }
-    .mob-btm{
-        margin-bottom:-18px;
+
+    .mob-btm {
+        margin-bottom: -18px;
     }
+
     a.btn-custom {
-        background-color: #2d347f!important;
-        color: #fff!important;
+        background-color: #2d347f !important;
+        color: #fff !important;
     }
-    .dsk-mob-h3{
-        font-size:24px;
+
+    .dsk-mob-h3 {
+        font-size: 24px;
     }
 
     .call-us-h3-mob h3 {
@@ -1544,14 +1551,16 @@ li {
     padding: 3px;
     border-radius: 5px;
     border: 11px;
-    background-color: rgb(245,197,46);
+    background-color: rgb(245, 197, 46);
 }
+
 .image-highlight.active {
     padding: 3px;
     border-radius: 5px;
     border: 11px;
-    background-color: rgb(245,197,46);
+    background-color: rgb(245, 197, 46);
 }
+
 button.buttonarrow {
     padding: 6px 20px 6px 20px;
     background-color: yellow;
@@ -1562,6 +1571,6 @@ button.subscribearrow {
     padding: 6px 13px 6px 20px;
     background-color: yellow;
     border: none;
-}                                  
+}
 
 /* PAGE HEADING  */

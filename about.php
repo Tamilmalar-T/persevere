@@ -45,6 +45,10 @@
             color: #ffffff;
             font-size: 20px;
         }
+
+        .p-title {
+            padding: 2px 8px !important;
+        }
     </style>
 
 </head>
@@ -109,15 +113,17 @@
                                 <!-- logo begin -->
                                 <div id="logo" class="text-center">
                                     <a href="index.php">
-                                        <img alt="" class="" width="70%" src="images/PersevereLogo.png" />
-                                        <img alt="" class="logo-2" width="50%" src="images/PersevereLogo.png" /> 
-                                    </a>
+                                       <img src="images/PersevereLogo.png" class="d-none d-md-block" width="70%" />
+                                     </a>
                                 </div>
                                 <!-- logo close -->
                             </div>                            
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainmenu begin -->
                                 <ul id="mainmenu">
+                                    <!-- <li>
+                                        <a href="">Home<span></span></a>
+                                    </li> -->
                                     <li>
                                         <a href="about.php">About Us<span></span></a>
                                     </li>
@@ -171,61 +177,32 @@
                 style="padding:10px 0 30px 0 !important">
                 <div class="container abt-desk">
                     <div class="row align-items-center">
-                        <div class="col-lg-12 col-md-12">
+                        <div class="col-lg-12">
                             <span class="p-title invert">Who We Are</span><br>
                             <p style="margin-bottom: 10px;"><span class="p-title invert"> Persevere Medica </span> is a fast growing organization with a vision to serve the right quality medicine on time, supporting the medical fraternity and patients with life-saving Emergency Medicine.
                             </p>
                             <p style="margin-bottom: 10px;">Our mission is to harness the power of science and technology to deliver breakthrough medicines that make a meaningful difference in people's lives.
                             </p>
-                            <p style="margin-bottom: 30px;">We are specialized in Manufacturing and Marketing of quality Medicine covering most of the departments.
+                            <p style="margin-bottom: 10px;">We are specialized in Manufacturing and Marketing of quality Medicine covering most of the departments.
                             </p>
+                            <span class="p-title invert">🌍 our Vision</span><br>
+                            <p style="margin-bottom: 10px;">To become a trusted and respected pharmaceutical marketing company delivering high-quality, affordable allopathic medicines across India, improving patient lives through ethical practices, innovation, and strong healthcare partnerships. </p>
 
-                            <div class="row">
-                                <div class="col-md-6 mb-4">
-                                    <h3 style="color: #313380;">🌍 Our Vision</h3>
-                                    <p>To become a trusted and respected pharmaceutical marketing company delivering high-quality, affordable allopathic medicines across India, improving patient lives through ethical practices, innovation, and strong healthcare partnerships.</p>
-                                    <p>We envision <strong>Persevere Medica</strong> as a symbol of trust among doctors, patients, and healthcare institutions by consistently providing WHO-GMP certified products across major therapeutic segments.</p>
+                            <p>  We envision Persevere Medica as a symbol of trust among doctors, patients, and healthcare institutions by consistently providing WHO-GMP certified products across major therapeutic segments.</p>
 
-                                    <h3 style="color: #313380; margin-top: 30px;">💊 Our Core Commitment</h3>
-                                    <ul style="list-style-type: none; padding-left: 0; line-height: 2;">
-                                        <li><i class="fa fa-check text-success" style="margin-right: 8px;"></i> Quality Assured (WHO-GMP Manufacturing)</li>
-                                        <li><i class="fa fa-check text-success" style="margin-right: 8px;"></i> Patient-Centric Pricing</li>
-                                        <li><i class="fa fa-check text-success" style="margin-right: 8px;"></i> Ethical Business Practices</li>
-                                        <li><i class="fa fa-check text-success" style="margin-right: 8px;"></i> Strong Doctor Relationship</li>
-                                        <li><i class="fa fa-check text-success" style="margin-right: 8px;"></i> Sustainable Growth</li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6 mb-4">
-                                    <h3 style="color: #313380;">🎯 Our Mission</h3>
-                                    <p>At Persevere Medica, our mission is:</p>
-                                    <ul style="line-height: 1.8;">
-                                        <li>To market WHO-GMP certified pharmaceutical products that meet the highest standards of safety and efficacy.</li>
-                                        <li>To provide affordable and accessible medicines for patients across all therapeutic segments.</li>
-                                        <li>To build strong, long-term relationships with doctors, hospitals, and stockists.</li>
-                                        <li>To promote ethical marketing practices with transparency and integrity.</li>
-                                        <li>To continuously expand our portfolio in key specialties including:
-                                            <div class="row mt-2">
-                                                <div class="col-sm-6">
-                                                    <ul style="list-style-type: none; padding-left: 0;">
-                                                        <li><i class="fa fa-angle-right" style="margin-right: 5px;"></i> Diabetology</li>
-                                                        <li><i class="fa fa-angle-right" style="margin-right: 5px;"></i> Cardiology</li>
-                                                        <li><i class="fa fa-angle-right" style="margin-right: 5px;"></i> Orthopedics</li>
-                                                        <li><i class="fa fa-angle-right" style="margin-right: 5px;"></i> Neurology</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <ul style="list-style-type: none; padding-left: 0;">
-                                                        <li><i class="fa fa-angle-right" style="margin-right: 5px;"></i> Dermatology</li>
-                                                        <li><i class="fa fa-angle-right" style="margin-right: 5px;"></i> Gynecology</li>
-                                                        <li><i class="fa fa-angle-right" style="margin-right: 5px;"></i> Pulmonology</li>
-                                                        <li><i class="fa fa-angle-right" style="margin-right: 5px;"></i> Endocrinology</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <span class="p-title invert">🎯 Our Mission</span><br>
+                            <p style="margin-bottom: 10px;">•	To market WHO-GMP certified pharmaceutical products that meet the highest standards of safety and efficacy.<br>
+                            •	To provide affordable and accessible medicines for patients across all therapeutic segments.<br>
+                            •	To build strong, long-term relationships with doctors, hospitals, and stockists.<br>
+                            •	To promote ethical marketing practices with transparency and integrity.<br>
+                            •	To continuously expand our portfolio in key specialties including: Diabetology, Cardiology, Orthopedics, Neurology, Dermatology, Gynecology, Pulmonology, Endocrinology.</p>  
+
+                            <span class="p-title invert">🎯 💊 Our Core Commitment</span>
+                            <p style="margin-top: 10px;">✔️ Quality Assured (WHO-GMP Manufacturing)<br>
+                            ✔️ Patient-Centric Pricing<br>
+                            ✔️ Ethical Business Practices<br>
+                            ✔️ Strong Doctor Relationship<br>
+                            ✔️ Sustainable Growth</p>
                         </div>
 
                     </div>

@@ -268,7 +268,10 @@
       <!--banner border begin-->
       <section data-bgcolor="#f9c648" class="pt10 pb10 bg-color-secondary"></section>
       <section class="py-0">
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex justify-content-center align-items-center position-relative">
+          <div class="position-absolute" style="left: 15px;">
+            <h4 class="mb-0"><a href="product.php" class="text-black"><i class="id-color arrow_left fa-lg" style="margin-right: 5px"></i> PRODUCTS</a></h4>
+          </div>
           <!--Next and Previous Button-->
           <div class="pre-nxt-btn">
             <button type="button" class="btn btn-bg-color btn-sm">
@@ -292,9 +295,7 @@
             <div class="col-lg-8 col-md-12 pt10">
               <div class="row">
                 <!--Product display-->
-                <h4>
-                  <a href="product.php" class="text-black"><i class="id-color arrow_left fa-lg" style="margin-right: 5px"></i> ANAESTHESIA</a>
-                </h4>
+
                 <!-- <span class="bredcrm"><a href="product.php"><i class="id-color arrow_left fa-lg"
                                             style="margin-right: 5px"></i>Acustigmine</a></span> -->
 
@@ -418,7 +419,7 @@
                       <img src="images/product/icons/Strength icon.gif" class="img-fluid icon-prd" />0.5mg/ml & 2.5mg/5ml
                     </li>
                     <li>
-                        <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
+                        <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />Pharmacopoeia - I.P.
                     </li>
         
                     <li>
@@ -469,7 +470,7 @@
     <a href="#" id="back-to-top"></a>
 
     <section class="py-0">
-      <div class="container d-flex justify-content-center">
+      <div class="container d-flex justify-content-center align-items-center">
         <!--Next and Previous Button-->
         <div class="pre-nxt-btn">
           <button type="button" class="btn btn-bg-color btn-sm">

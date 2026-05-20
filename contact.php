@@ -49,6 +49,9 @@
         .form-control {
             border: 1px solid #060606;
         }
+        
+        
+
     </style>
 
 </head>
@@ -201,7 +204,7 @@
                                 <h3>Corporate Office</h3>
                                 <address class="s1">
                                     <span class="d-flex"><i class="fa fa-map-marker fa-lg"></i>G7 Room No.1,Matunga West, Mumbai, Maharashtra, India 400019.</span>
-                                    <span><i class="fa fa-phone fa-lg"></i><a href="tel:+911234567890">+91  8452827163</a></span>
+                                    <span><i class="fa fa-phone fa-lg"></i><a href="tel:+911234567890">+91  9363216685 </a></span>
                                     <!--<span><i class="fa fa-envelope-o fa-lg"></i><a-->
                                     <!--        href="mailto:pmt@Demo.in">pmt@Demo.in</a></span>-->
                                     <span><i class="fa fa-envelope-o fa-lg"></i><a
@@ -233,11 +236,12 @@
                                     <input type="number" name="phone" id="phone" pattern="^(0|[1-9][0-9]*)$"
                                         maxlength="12" minlength="10" class="form-control" placeholder="Your Phone" />
                                 </div>
-
-                                <div class="field-set">
-                                    <textarea name="message" id="message" class="form-control"
-                                        placeholder="Your Message"></textarea>
+                                <div class="field-set ">
+                                    <input type="text" name="message" id="message" 
+                                        class="form-control" placeholder="Your Message" style="height: 100px;" />
                                 </div>
+
+                           
 
                                 <div class="spacer-half"></div>
 

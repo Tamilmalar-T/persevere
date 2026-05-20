@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Persevere Medica</title>
+    <title>Demo Company</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Persevere Medica" name="description">
+    <meta content="Demo Company" name="description">
     <meta content="" name="keywords">
     <meta content="" name="author">
 

@@ -190,10 +190,10 @@
           <!--Next and Previous Button-->
           <div class="pre-nxt-btn">
             <button type="button" class="btn btn-bg-color btn-sm">
-              <a href="lormand-ch.php" style="color: #000"><i class="id-color arrow_left fa-lg"
+              <a href="cutropin.php" style="color: #000"><i class="id-color arrow_left fa-lg"
                   style="margin-right: 5px"></i>Previous</a>
             </button>
-            <p class="mx-3 mb-0">7/14</p>
+            <p class="mx-3 mb-0">6/52</p>
             <button type="button" class="btn btn-bg-color btn-sm">
               <a href="proactfol.php" style="color: #000">Next<i class="id-color arrow_right fa-lg"
                   style="margin-right: 5px"></i></a>
@@ -301,7 +301,7 @@
                     </li>
 
                     <li>
-                      <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
+                      <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />Pharmacopoeia - I.P.
                     </li>
                     <li>
                       <img src="images/product/icons/Direction of Use.gif" class="img-fluid icon-prd" />
@@ -346,10 +346,10 @@
         <!--Next and Previous Button-->
         <div class="pre-nxt-btn">
           <button type="button" class="btn btn-bg-color btn-sm">
-            <a href="lormand-ch.php" style="color: #000"><i class="id-color arrow_left fa-lg"
+            <a href="cutropin.php" style="color: #000"><i class="id-color arrow_left fa-lg"
                 style="margin-right: 5px"></i>Previous</a>
           </button>
-          <p class="mx-3 mb-0">7/14</p>
+          <p class="mx-3 mb-0">6/52</p>
           <button type="button" class="btn btn-bg-color btn-sm">
             <a href="proactfol.php" style="color: #000">Next<i class="id-color arrow_right fa-lg"
                 style="margin-right: 5px"></i></a>

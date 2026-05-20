@@ -425,7 +425,7 @@
                       2mg/ml
                     </li>
                     <li>
-                        <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" /> P.
+                        <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" /> Pharmacopoeia - U.S.P.
                     </li>
                     <li>
                       <img src="images/product/icons/Cold Chain product.png" class="img-fluid icon-prd" />

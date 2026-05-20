@@ -383,7 +383,7 @@
                                                 <li>
                                                     <img src="images/product/icons/IP BP USP.png"
                                                         class="img-fluid icon-prd" />
-                                                    
+                                                    Pharmacopoeia - I.P.
                                                 </li>
                                                 <li>
                                                     <img src="images/product/icons/Cold Chain product.png"
@@ -412,7 +412,7 @@
                                         </li>
                                         <li>
                                             <img src="images/product/icons/IP BP USP.png" class="img-fluid icon-prd" />
-                                            
+                                            Pharmacopoeia - I.P
                                         </li>
                                         <li>
                                             <img src="images/product/icons/Cold Chain product.png"

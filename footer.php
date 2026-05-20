@@ -14,6 +14,47 @@
                         </div>
                     </div>
 
+                    <style>
+                        .footer-products-widget h5 {
+                            color: #F5C52E;
+                            text-align: left;
+                        }
+                        .footer-product-links {
+                            text-align: left;
+                            line-height: 1.8;
+                            font-size: 14px;
+                        }
+                        .footer-product-links a {
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                        .footer-product-links a:hover {
+                            color: #F5C52E;
+                        }
+                        .footer-sep {
+                            display: inline;
+                            margin: 0 8px;
+                            color: #666;
+                        }
+                        .footer-br {
+                            display: block;
+                            margin-bottom: 5px;
+                        }
+                        @media (max-width: 767px) {
+                            .footer-products-widget h5, 
+                            .footer-product-links {
+                                text-align: left;
+                            }
+                            .footer-sep, .footer-br {
+                                display: none;
+                            }
+                            .footer-product-links a {
+                                display: block;
+                                margin-bottom: 8px;
+                            }
+                        }
+                    </style>
+
                     <div class="col-lg-2 col-6">
                         <div class="widget pb-1 mb-1">
                             <h5 style="color:#F5C52E;">Our Company</h5>
@@ -22,24 +63,19 @@
                                 <li><a href="events.php">Events</a></li>
                                 <li><a href="careers.php">Careers</a></li>
                                 <li><a href="contact.php">Reach Us</a></li>
-                                <!-- <li><a href="news.php">News</a></li> -->
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-6">
-                        <div class="widget pb-1 mb-1">
-                            <h5 style="color:#F5C52E;">Products</h5>
-                            <ul>
-                                <li><a href="product.php">Gynaecology</a></li>
-                                <li><a href="#">Cardiology</a></li>
-                                <li><a href="#">diabetology</a></li>
-                                <li><a href="#">Orthology</a></li>
-                                <li><a href="#">Neurology</a></li>
-                                <li><a href="#">pulmonology</a></li>
-                                <li><a href="#">gastroenterology</a></li>
-                                <!--<li><a href="essential-medicine.php"> Other Essentials</a></li>-->
-                            </ul>
+                    <div class="col-lg-3 col-6">
+                        <div class="widget pb-1 mb-1 footer-products-widget">
+                            <h5>Specification</h5>
+                            <div class="footer-product-links">
+                                <a href="gynaecology.php">Gynaecology</a><span class="footer-sep">|</span><a href="cardiology.php">Cardiology</a><span class="footer-br"></span>
+                                <a href="diabetology.php">Diabetology</a><span class="footer-sep">|</span><a href="orthopedics.php">Orthology</a><span class="footer-br"></span>
+                                <a href="neurology.php">Neurology</a><span class="footer-sep">    |</span><a href="pulmonology.php">Pulmonology</a><span class="footer-br"></span>
+                                <a href="dermotology.php">Dermotology</a><span class="footer-sep">|</span><a href="endrocrinology.php">Endrocrinology</a>
+                            </div>
                         </div>
                     </div>
 
@@ -47,44 +83,13 @@
                         <div class="widget pb-1 mb-1">
                             <h5 style="color:#F5C52E;">Get In Touch</h5>
                             <address class="s1">
-                                <span class="d-flex"><i class="fa fa-map-marker fa-lg"></i>G7 Room No.1, Matunga West,
-                                    Mumbai, Maharashtra, India 400019.</span>
-                                <span><i class="fa fa-phone fa-lg"></i><a href="tel:8452827163">+91 84528 27163</a></span>
-                                <!--<span><i class="fa fa-envelope-o fa-lg"></i><a-->
-                                <!--        href="mailto:pmt@Demo.in">pmt@Demo.in</a></span>-->
-                                <span><i class="fa fa-envelope-o fa-lg"></i><a
-                                        href="mailto: perseveremedica@gmail.com"> perseveremedica@gmail.com</a></span>
-                                <!-- <span><i class="fa fa-file-pdf-o fa-lg"></i><a href="#">Download Brochure</a></span> -->
+                                <span class="d-flex" style="margin-bottom: 10px;"><i class="fa fa-map-marker fa-lg" style="margin-right: 10px; margin-top: 5px;"></i>G7 Room No.1, Matunga West, Mumbai, 400019.</span>
+                                <span class="d-flex" style="margin-bottom: 10px;"><i class="fa fa-phone fa-lg" style="margin-right: 10px; margin-top: 5px;"></i><a href="tel:919363216685">91+ 9363216685 </a></span>
+                                <span class="d-flex"><i class="fa fa-envelope-o fa-lg" style="margin-right: 10px; margin-top: 5px;"></i><a href="mailto:perseveremedica@gmail.com">perseveremedica@gmail.com</a></span>
                             </address>
                         </div>
                     </div>
 
-                    <div class="col-lg-3">
-                        <div class="widget pb-1 mb-1">
-                            <h5 style="color:#F5C52E;">Subscription</h5>
-
-                            <p>Signup to be in touch for upcoming session update in your inbox.</p>
-                            <!-- <form action="blank.php" class="row" id="form_subscribe" method="post"
-                                name="form_subscribe">
-                                <div class="col text-center">
-                                    <input class="form-control" id="name_1" name="name_1" placeholder="enter your email"
-                                        type="text" /> <a href="#" id="btn-submit"><i
-                                            class="arrow_right bg-color-secondary"></i></a>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </form> -->
-
-                            <form action="subscribemail.php" class="row" id="form_subscribe" method="POST" name="form_subscribe">
-                                <div class="col text-center footerform">
-                                    <input class="form-control" id="name_1" name="email" placeholder="Enter your email" type="text" />
-                                    <button type="submit" name="sendmail" class="input-submit buttonarrow"><i class="arrow_right "></i></button>
-                                </div>
-                            </form>
-
-                            <!--<div class="spacer-10"></div>-->
-                            <!--<small>Your email is safe with us. We don't spam.</small>-->
-                        </div>
-                    </div>
                 </div>
 
 

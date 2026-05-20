@@ -3,63 +3,66 @@ error_reporting(0);
 
 		use PHPMailer\PHPMailer\PHPMailer;
 		
-  		if (isset($_POST['sendmail'])) {
+		if (isset($_POST['sendmail'])) {
 			$user_email = $_POST['email'];			
-
-			$subject_msg = "Subscribe Mail from Demo";
-				$my_body_data = "
-					<h1>Customer Email Details</h1>
-					
-					<p>Email : <b>$user_email</b></p>
-				";
-			$name = "New Subscribe Mail Demo";  // Name of your website or yours
-			$to = "Demo@Demo.in";  // mail of reciever
-			$subject = $subject_msg;
-			$body = $my_body_data;
-			$from = "Demo@Demo.in";  // your mail
-			$password = "mgok buje bzms uvkx";  // your mail password
-            //$password = "lqng zvhl rtkg kjhw"; // your mail password running marketing passkey
-			// Ignore from here
+			$site_name = "Persevere Medica";
+			$from_email = "perseveremedica@gmail.com"; 
+			$password = "kzuw ubhd ynww ykuy";
 
 			require_once "PHPMailer/PHPMailer.php";
 			require_once "PHPMailer/SMTP.php";
 			require_once "PHPMailer/Exception.php";
+			
 			$mail = new PHPMailer();
-
-			// To Here
 
 			//SMTP Settings
 			$mail->isSMTP();
-			// $mail->SMTPDebug = 3;  Keep It commented this is used for debugging                          
-			$mail->Host = "smtp.gmail.com"; // smtp address of your email
+			$mail->Host = "smtp.gmail.com"; 
 			$mail->SMTPAuth = true;
-			$mail->Username = $from;
+			$mail->Username = $from_email;
 			$mail->Password = $password;
-			$mail->Port = 587;  // port
-			$mail->SMTPSecure = "tls";  // tls or ssl
+			$mail->Port = 587; 
+			$mail->SMTPSecure = "tls";
 			$mail->smtpConnect([
-			'ssl' => [
-				'verify_peer' => false,
-				'verify_peer_name' => false,
-				'allow_self_signed' => true
+				'ssl' => [
+					'verify_peer' => false,
+					'verify_peer_name' => false,
+					'allow_self_signed' => true
 				]
 			]);
 
-			//Email Settings
+			// 1. Send Notification Email to Admin (Self)
 			$mail->isHTML(true);
-			$mail->setFrom($from, $name);
-			$mail->addAddress($to); // enter email address whom you want to send
-			$mail->Subject = ("$subject");
-			$mail->Body = $body;
-			
+			$mail->setFrom($from_email, $site_name);
+			$mail->addAddress($from_email); 
+			$mail->Subject = "New Newsletter Subscription: $user_email";
+			$mail->Body = "
+				<h1>New Subscription Request</h1>
+				<p>A new user has subscribed to the newsletter.</p>
+				<p><b>Subscriber Email:</b> $user_email</p>
+			";
+			$mail->send();
+
+			// 2. Send Confirmation Email to User
+			$mail->clearAddresses();
+			$mail->addAddress($user_email);
+			$mail->Subject = "Welcome to Persevere Medica Newsletter!";
+			$mail->Body = "
+				<h1>Thank you for subscribing!</h1>
+				<p>Dear Subscriber,</p>
+				<p>Thank you for signing up for the Persevere Medica newsletter. You will now receive our latest updates and sessions directly in your inbox.</p>
+				<br>
+				<p>Best Regards,<br>Persevere Medica Team</p>
+			";
+
 			if ($mail->send()) {
-                ?>
+				?>
 				<script>
-					alert('Thank you for Subscribe!!');
-                    window.location.href="index.php";
-                </script>
-			    <?php
-            } else {
+					alert('Thank you for subscribing!!');
+					window.location.href="index.php";
+				</script>
+				<?php
+			} else {
 				echo "Something is wrong: <br><br>" . $mail->ErrorInfo;
 			}
 		}
