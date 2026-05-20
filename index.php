@@ -422,7 +422,6 @@
                                 </div>
                                 <!-- logo close -->
                             </div>
-                          <div class="col-md-12"> 
 
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainmenu begin -->
